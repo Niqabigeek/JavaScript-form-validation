@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+:root{
+    --background-color: #4D4457;
+    --white: #ffffff;
+}
+
+#btn:hover{
+    background-color: #70667bf9;
+    border: 2px solid #70667bf9;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+#brand-image{
+    max-width: 40%;
+    position: relative;
+    top: 14%;
+    left: 24%;
+}
+
+.left-div{
+    background-color: var(--background-color);
+    height: 100vh;
+    
+}
+
+.right-div{
+    float: right;
+    background-color: var(--white);
+    width: 100%;
+    margin: auto;
+}
+
+span{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container{
+  margin-left: 13rem;
+   
+
+}
+
+
+label{
+    color: var(--background-color);
+}
+
+input, select{
+    width: 80%;
+    padding: 16px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1.5px solid var(--background-color);
+    border-radius: 4px;
+}
+
+input:focus {
+    background-color: #efeaf576;
+}
+
+
+
+#btn{
+    background-color: var(--background-color);
+    color: var(--white);
+    width: 80%;
+    margin: 8px 0;
+    padding: 16px 20px;
+    border: 2px solid var(--background-color);
+    font-size: 18px;
+    letter-spacing: 1px;
+    border-radius: 4px;
+
+}
+
+p{
+    color: var(--white);
+    font-size: 32px;
+    text-align: center;
+    margin-top: 8rem;
+}
+
+
+
+

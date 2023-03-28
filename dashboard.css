@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+:root{
+    --background-color: #4D4457;
+    --white: #ffffff;
+}
+
+.container{
+    background-color: var(--background-color);
+    width: 50%;
+    height: 60vh;
+    margin: 6rem auto;
+    border-radius: 20px;
+   
+}
+
+p{
+    text-align: center;
+    padding: 10rem;
+    font-size: 24px;
+    color: var(--white);
+    letter-spacing: 2px;
+}
